@@ -56,14 +56,14 @@ const AddTask = () => {
     return (
       <div>
           <div className='w-96 p-7'>
-            <h2 className="text-4xl">Add A Task</h2>
+            <h2 className="switeh text-4xl">Add A Task</h2>
             <form onSubmit={handleSubmit(handleAddTask)}>
                 <div className="form-control w-full ">
-                    <label className="label"> <span className="label-text">Task</span></label>
+                    <label className="label"> <span className="switeh label-text">Task</span></label>
                     <input
                         type="text" {...register("task", {
                             required: "Task is Required"
-                        })} className="input input-bordered w-full " />
+                        })} className="input input-bordered border w-full " />
                     {errors.Task && <p className='text-red-500'>{errors.Task.message}</p>}
                 </div>
 

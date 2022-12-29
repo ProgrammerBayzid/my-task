@@ -7,6 +7,54 @@
   pointer-events: none;
 }
 
+
+
+#light {
+  background-color: white;
+}
+
+#dark {
+  background-color: black;
+}
+
+#light .main {
+  background-color: white;
+}
+
+#dark .main {
+  background-color: black;
+}
+
+#light .switeh {
+  color: black;
+}
+
+#dark .switeh {
+  color: white;
+}
+
+#light .switeh text {
+  color: black;
+}
+
+#dark .switeh text {
+  color: rgb(241, 236, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

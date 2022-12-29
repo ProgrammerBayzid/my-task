@@ -53,7 +53,7 @@ const ComplatedTask = () => {
     return (
         <div>
         <h1 className='px-4 text-center text-2xl sm:text-5xl md:text-3xl lg:text-5xl font-semibold my-10  '>
-            <span className='text-orange-500'>Completed </span> Task</h1>
+            <span className='text-orange-500'>Completed Task</span> </h1>
         <div className='grid lg:grid-cols-2 md:grid-cols-2'>
             {
                 completes.map(complete => 
